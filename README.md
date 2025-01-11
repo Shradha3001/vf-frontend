@@ -1,4 +1,4 @@
-## How to install react with router and tailwind css
+## Installed react with router and tailwind css
 
 ```bash
 yarn create react-app .
@@ -22,7 +22,7 @@ module.exports = {
 }
 ```
 
-### Integrate Tailwind CSS into your React project:
+### Integrated Tailwind CSS into your React project:
 1. Create a CSS file (e.g., src/index.css) in your src directory.
 2. Import the Tailwind directives in this file using the following syntax:
 
@@ -32,7 +32,7 @@ module.exports = {
 @tailwind utilities;
 ```
 
-### Create a pages folder and instide that home.jsx file with react content 
+### Created a pages folder and instide that home.jsx file with react content 
 
 
 ### changing app.js file according to react router dom 
@@ -42,7 +42,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 
-function App() {
+function App() {.;
   return (
     <>
       <Router>
@@ -53,6 +53,25 @@ function App() {
     </>
   );
 }
-
 export default App;
 ```
+### Building the fronted application to run on localhost
+```bash
+yarn install
+yarn build
+yarn start
+```
+
+
+### Hosting frontend web application on firebase
+```bash
+npm install -g firebase-tools
+firebase login
+yarn build
+firebase init hosting
+firebase deploy
+yarn build
+firebase deploy
+```
+https://viralfission123.web.app
+
