@@ -61,7 +61,7 @@ yarn install
 yarn build
 yarn start
 ```
-
+![](https://github.com/Shradha3001/vf-frontend/blob/8b54de7ac4aed6b930ac2aafd14b2bc1b1af1131/Screenshot%202025-01-11%20001355.png)
 
 ### Hosting frontend web application on firebase
 ```bash
