@@ -7,7 +7,7 @@ const Home = () => {
 
   // Backend URL for dynamic use
   const backendUrl =
-    process.env.REACT_APP_BACKEND_URL || 'http://3.7.65.206:3003';
+    process.env.REACT_APP_BACKEND_URL || 'http://13.203.141.207:3005';
 
   const fetchAssignment = async (role) => {
     setLoading(true);
